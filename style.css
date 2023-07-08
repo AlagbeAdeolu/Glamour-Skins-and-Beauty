@@ -1,0 +1,148 @@
+body {
+    background-color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    color: #6CAE75;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Header */
+.main-navigation {
+    background-color: #fff !important;
+}
+
+.navbar-nav {
+    gap: 2rem;
+}
+
+nav {
+    color: #6CAE75;
+}
+
+.heading {
+    font-family: 'Lexend', sans-serif;
+    font-size: 72px;
+}
+
+.home-slide {
+    height: 600px;
+    background: #F7FFE5;
+    border-radius: 10px;
+    padding: 0 60px;
+
+}
+
+.home-slide_content-text {
+    height: 100%;
+    justify-content: center;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 550px;
+
+}
+
+.filled-btn {
+    background-color: #A0C49D!important;
+    color: #fff!important;
+}
+
+.home-slide_content-image {
+    display: flex;
+    flex: 1;
+    position: relative;
+    justify-content: flex-end;
+}
+
+.home-slide_button-wrapper {
+    gap: 12px;
+}
+.home-slide_button {
+    font-size: 16px;
+    text-decoration: none;
+    color: #A0C49D;
+    border: 0;
+    padding: 14px 24px;
+    background-color: #fff;
+}
+
+
+img {
+    
+    width: auto;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    display: block;
+    left: auto;
+    bottom: auto;
+    border-bottom-right-radius: 10px;
+    right: -60px;
+
+}
+
+.section-slide_content-icon {
+    height: 64px;
+    width: 72px;
+    color: #6CAE75;
+}
+
+svg {
+    height: 100%;
+    width: auto;
+}
+
+.section-slide {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px
+}
+
+.service-section {
+    padding: 0;
+}
+
+.section-slide_content {
+    border: 1px solid rgba(16,88,75,.12);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #6CAE75;
+    padding: 24px 40px;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+
+}
+
+section {
+    margin: 30px 0;
+}
+
+.social-link-container {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.social-link-item {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
+
+textarea {
+    width: 100%;
+}
+.contact-slide_detail-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
